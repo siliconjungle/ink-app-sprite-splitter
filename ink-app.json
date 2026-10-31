@@ -1,0 +1,36 @@
+{
+  "slug": "sprite-splitter",
+  "title": "Sprite Splitter",
+  "repository": "https://github.com/siliconjungle/ink-app-sprite-splitter",
+  "directory": "web",
+  "entry": "index.html",
+  "desktop": {
+    "entry": "sprite-splitter",
+    "icon": "web/icon.svg",
+    "window": {
+      "width": 1152,
+      "height": 800
+    },
+    "dropTypes": [
+      "image/png",
+      "image/jpeg",
+      "image/webp",
+      "application/zip",
+      "application/json",
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".webp"
+    ],
+    "fileTypes": [
+      "image/png",
+      "image/jpeg",
+      "image/webp"
+    ]
+  },
+  "capabilities": [
+    "world.read",
+    "world.write",
+    "desktop.open"
+  ]
+}
